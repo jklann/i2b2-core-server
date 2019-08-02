@@ -1,7 +1,6 @@
-# Java Maven CircleCI 2.0 configuration file
-#
 # Check https://circleci.com/docs/2.0/language-java/ for more details
 #
+# Wanting to do push to github on release, look at https://circleci.com/blog/publishing-to-github-releases-via-circleci/
 version: 2
 jobs:
   build:
