@@ -23,8 +23,4 @@ jobs:
     steps:
       - checkout
 
-      - run:
-          command: |
-            cd edu.harvard.i2b2.server-common
-            ant clean war
-            
+      - run: cd edu.harvard.i2b2.server-common && ant clean war
