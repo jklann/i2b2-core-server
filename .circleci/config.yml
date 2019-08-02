@@ -24,7 +24,7 @@ jobs:
       - checkout
 
       - run:
-        command: |
+          command: |
             cd edu.harvard.i2b2.server-common
             ant clean war
             
