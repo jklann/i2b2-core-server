@@ -25,3 +25,6 @@ jobs:
 
       - run: cd edu.harvard.i2b2.server-common && ant clean dist war
 
+      - store_artifacts:
+          path: edu.harvard.i2b2.server-common/dist
+          destination: i2b2-war
