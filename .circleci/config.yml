@@ -29,8 +29,8 @@ jobs:
       - run: cd edu.harvard.i2b2.server-common && ant clean dist war
 
       - persist_to_workspace:
-        root: edu.harvard.i2b2.server-common/dist
-        paths: i2b2.war.zip
+          root: edu.harvard.i2b2.server-common/dist
+          paths: i2b2.war.zip
         
 #      - store_artifacts:
 #          path: edu.harvard.i2b2.server-common/dist/i2b2.war.zip
